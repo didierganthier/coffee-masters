@@ -2,6 +2,8 @@ body {
   background-color: #fff;
   margin: 0%;
   font-family: 'Open Sans', sans-serif;
+  height: 100vh;
+  overflow-y: hidden;
 }
 
 .navigation {
@@ -21,4 +23,114 @@ body {
 .navigation h1 {
   color: #fbf1bf;
   font-size: 20px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px;
+}
+
+.items {
+  background-color: #ede1d4;
+  width: 40%;
+  height: 40vh;
+  border-radius: 10px;
+}
+
+.items h2 {
+  color: #b59477;
+  font-size: 20px;
+  text-align: start;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+/* Add space between the two elements of card-info */
+.card-info {
+  display: flex;
+  width: 40%;
+  height: 40vh;
+  gap: 30px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-info h2 {
+  color: #b59477;
+  font-size: 20px;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.card-info .name {
+  background-color: #ede1d4;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.card-info .payment {
+  background-color: #ede1d4;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+.single-item {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+hr {
+  border-color: #e6ceb5;
+  margin: 30px;
+}
+
+.example-group {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.example-input {
+  border-color: #b6987b;
+  background-color: #ede1d4;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.input-label {
+  background-color: #ede1d4;
+  color: #ac8867;
+  font-size: 11px;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  padding: 0 2px;
+}
+
+.example-input:focus {
+  border-color: #b6987b;
+  outline: none;
 }
