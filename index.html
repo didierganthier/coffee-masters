@@ -10,47 +10,52 @@
 </head>
 <body>
     <div>
-        <nav>Coffee Masters</nav>
-        <div>
-            <div>
+        <nav class="navigation">
+                <img src="images/logo.png" alt="logo" class="logo">
+                <h1>Coffee Masters</h1>
+        </nav>
+        <div class="main-content">
+            <div class="items">
                 <h2>Items</h2>
-                <div>
-                    <div>1x</div>
-                    <div>
-                        <div>Cappucino</div>
-                        <div>Lite Foam</div>
-                        <div></div>
+                <div class="single-item">
+                    <div class="qty-item">1x</div>
+                    <div class="name-type">
+                        <div class="coffee-name">Cappucino</div>
+                        <div class="coffee-type">Lite Foam</div>
+                        <div class="coffee-type"></div>
                     </div>
-                    <div>$3.35</div>
+                    <div class="price-item">$3.35</div>
                 </div>
-                <div>
-                    <div>1x</div>
-                    <div>
-                        <div>Cappucino</div>
-                        <div>Lite Foam</div>
-                        <div></div>
+                <hr />
+                <div class="single-item">
+                    <div class="qty-item">1x</div>
+                    <div class="name-type">
+                        <div class="coffee-name">Cappucino</div>
+                        <div class="coffee-type">Lite Foam</div>
+                        <div class="coffee-type"></div>
                     </div>
-                    <div>$3.35</div>
+                    <div class="price-item">$3.35</div>
                 </div>
-                <div>
-                    <div>1x</div>
-                    <div>
-                        <div>Cappucino</div>
-                        <div>Lite Foam</div>
-                        <div></div>
+                <hr />
+                <div class="single-item">
+                    <div class="qty-item">1x</div>
+                    <div class="name-type">
+                        <div class="coffee-name">Cappucino</div>
+                        <div class="coffee-type">Lite Foam</div>
+                        <div class="coffee-type"></div>
                     </div>
-                    <div>$3.35</div>
+                    <div class="price-item">$3.35</div>
                 </div>
             </div>
-            <div>
-                <div>
+            <div class="card-info">
+                <div class="name">
                     <h2>Name</h2>
                     <div class="example-group">
                         <label for="example" class="input-label">Name for order</label>
                         <input id="example" class="example-input" placeholder="Ford Prefect" />
                     </div>
                 </div>
-                <div>
+                <div class="payment">
                     <h2>Payment</h2>
                     <div class="example-group">
                         <label for="example" class="input-label">Card number</label>
@@ -63,21 +68,20 @@
                 </div>
             </div>
         </div>
-        <div>
-            <div>
-                <div>Subtotal</div>
+        <div class="summary">
+            <div class="summary-content">
+                <div>Subtotal:</div>
                 <div>$10.05</div>
-            </div>
-            <div>
-                <div>Tax</div>
+                <div>Tax:</div>
                 <div>$0.00</div>
-            </div>
-            <div>
-                <div>Total</div>
+                <div class="total">Total:</div>
                 <div>$10.05</div>
-            </div>
+            </div>  
         </div>
-        <button>Place Order</button>
+        <div class="order">
+            <button type="submit" class="order-btn">Place Order</button>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
