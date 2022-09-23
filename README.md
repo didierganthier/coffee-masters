@@ -13,6 +13,8 @@
 ## Live Demo
 [Checkout here](https://didierganthier.github.io/coffee-masters/)
 
+## Preview
+![alt text](https://didierganthier.github.io/coffee-masters/images/screenshot.png)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
