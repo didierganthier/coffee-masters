@@ -11,7 +11,7 @@
 
 
 ## Live Demo
-N/A
+[Checkout here](https://didierganthier.github.io/coffee-masters/)
 
 
 ## Getting Started
