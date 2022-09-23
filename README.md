@@ -11,7 +11,7 @@
 
 
 ## Live Demo
-[Check out here](https://didierganthier.github.io/microverse-portfolio/)
+N/A
 
 
 ## Getting Started
